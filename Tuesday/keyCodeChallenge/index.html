@@ -11,12 +11,20 @@
     <h1>Keycode generator</h1>
     <input type="text" onkeypress="keycode()">
     <h1 id="keycode">Keycode</h1>
-    <h2>event.key</h2>
-    <p id="eventKey"></p>
-    <h2>event.code</h2>
-    <p id="eventCode"></p>
-    <h2>event.which</h2>
-    <p id="eventWhich"></p>
+    <div id="flexRow">
+        <div id="flexColumn">
+        <h2>event.key</h2>
+        <p id="eventKey"></p>
+        </div>
+        <div id="flexColumn">
+        <h2>event.code</h2>
+        <p id="eventCode"></p>
+        </div>
+        <div id="flexColumn">
+        <h2>event.which</h2>
+        <p id="eventWhich"></p>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

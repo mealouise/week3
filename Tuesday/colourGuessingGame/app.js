@@ -10,3 +10,20 @@ const modeButtons = document.querySelectorAll(".mode");
 for(i=0; i<squares.length; i++) {
     squares[i].style.backgroundColor = colors[i]
 }
+
+for(i=0; i<=squares.length;i++) {
+    squares[i].addEventListener("click", function() {
+        alert("option was clicked");
+    });
+}
+pickedColor = colors[3]; 
+
+for (i=0; i <= squares.length; i++) {
+    squares[i].style.backgroundColor = colors[i];
+    clickedColor = this.style.backgroundColor;
+    if (pickedColor === clickedColor) {
+        changeColors(pickedColor);
+    }
+
+
+}
