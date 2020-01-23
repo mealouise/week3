@@ -40,9 +40,7 @@ for (let i=0; i <notBlue.length; i++) {
 
 // const listTwo = document.querySelector("list-two");
 // for (let i=0; i <listTwo.length; i++) {
-//     listTwo[i].style.color = "yellow";
-
-}
+//     listTwo[i].style.color = "yellow";}
 
 
 
