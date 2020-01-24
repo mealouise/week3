@@ -3,12 +3,20 @@
 //1. create random number between 1 and 6
 
 //html element declarations
+
 const rollButton = document.getElementById("roll");
-const playerScore = document.getElementById("playerScore");
 const diceImage = document.getElementById("diceImage");
+//player 1
+const playerScore = document.getElementById("playerScore");
 const playerTotalScore = document.getElementById("playerTotalScore");
 const playerStatus = document.getElementById("playerStatus");
 const currentPlayer = document.getElementById("currentPlayer");
+
+//player 2
+const player2Score = document.getElementById("player2Score");
+const player2TotalScore = document.getElementById("player2TotalScore");
+const player2Status = document.getElementById("player2Status");
+
 diceImage.style.visibility ="hidden";
 
 
@@ -103,6 +111,3 @@ const winOrLose = () => {
 
 // let numberRolled = Math.ceil(Math.random() * 6); //using ceil to get number between 1 and 6
 // let rollFloor = Math.floor(Math.random() * 6);
-
-
-
